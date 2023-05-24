@@ -1,0 +1,23 @@
+@import './Main.scss';
+
+.Navigation {
+  background-color: $secondary-background;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $primary-color;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    li {
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
